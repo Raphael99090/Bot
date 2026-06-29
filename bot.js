@@ -1874,6 +1874,7 @@ client.on("interactionCreate", async (interaction) => {
         ephemeral: true,
       });
     }
+  } // fim if owner
   } catch (e) {
     console.error(`❌ Erro no comando /${interaction.commandName}:`, e.message);
     const msg = { content: "❌ Ocorreu um erro inesperado. Tenta de novo.", ephemeral: true };
