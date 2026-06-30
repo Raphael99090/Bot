@@ -1,6 +1,6 @@
 {
   "name": "04chan-bot",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
@@ -8,9 +8,10 @@
   "dependencies": {
     "discord.js": "^14.15.3",
     "pg": "^8.11.3",
-    "@napi-rs/canvas": "^0.1.53"
+    "puppeteer": "^22.0.0"
   },
   "engines": {
     "node": ">=18.0.0"
   }
 }
+
